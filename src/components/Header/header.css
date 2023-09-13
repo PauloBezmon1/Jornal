@@ -7,6 +7,7 @@
 
 .header{
     display: flex;
+    width: 100%;
     flex-direction: row;
     background-color: #5297FF;
     height: 8vh;
@@ -19,11 +20,6 @@
     margin-left: 6vh;
 }
 
-main{
-    width: 100%;
-    max-width: 30px;
-    margin: 0;
-}
 
 .divPesq{
     display: flex;
@@ -34,4 +30,25 @@ main{
 input{
     padding: 5px;
     outline: none;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction:inherit;
+    top: 10%;
+
+}
+.catalogo a{
+    width: 100%;
+    padding-left: 5%;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+    
+    main{
+        width: 100%;
+        max-width: 30px;
+        margin: 0;
+    }
 }

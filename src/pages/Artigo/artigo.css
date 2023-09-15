@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.categoria{
+    margin-top: 0%;
+}
+
+.titulo{
+    text-align: center;
+    display: block;
+    font-size: 5vh;
+}
+
+.fonte{
+    text-align: end;
+    display: block;
+}
+
+.descr{
+    padding-top: 0vh;
+    margin: auto;
+    padding: 1%;
+    max-width: 85%;
+    text-indent: 2%;
+}
+    .descr p{
+        margin:auto ;
+    }
+
+.img{
+    max-width: 80%;
+    padding-left: 3%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+@media screen {
+    .img{
+        max-height: 40vw;
+    }
+
+}
